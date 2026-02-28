@@ -23,6 +23,9 @@ proc = subprocess.Popen(
         "8000",
         "--host",
         "0.0.0.0",
+        "--enable-auto-tool-choice",
+        "--tool-call-parser",
+        "hermes",
     ]
 )
 
